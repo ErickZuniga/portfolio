@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaGitAlt, FaDocker, FaLinux, FaJs, FaPython, FaHtml5, FaNpm, FaPlug, FaDatabase, FaServer, FaCog, FaJava, FaBootstrap, FaCss3 } from 'react-icons/fa';
-import { SiSpring, SiMendeley, SiJenkins, SiHibernate } from 'react-icons/si';
+import { FaGitAlt, FaDocker, FaLinux, FaJs, FaPython, FaHtml5, FaNpm, FaPlug, FaDatabase, FaServer, FaCog, FaJava, FaBootstrap, FaCss3, FaAws } from 'react-icons/fa';
+import { SiSpring, SiMendeley, SiJenkins, SiHibernate, SiJson, SiReact, SiCouchbase, SiSonarqube, SiTailwindcss } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
 import { CodeIcon } from '../components/Icons.tsx';
@@ -19,14 +19,19 @@ const IconMap: Record<string, React.FC<{ className?: string }>> = {
   'css3': FaCss3,
   'bootstrap': FaBootstrap,
   hibernate: SiHibernate,
-  'json': FaNpm,
+  'json': SiJson,
   'rest-api': FaPlug,
   'jenkins': SiJenkins,
   'grpc': FaPlug, // Using FaPlug as an alternative to Grpc
   globe: FaServer,
   server: FaServer,
   settings: FaCog,
-  code: CodeIcon
+  code: CodeIcon,
+  react: SiReact,
+  aws: FaAws,
+  couchbase: SiCouchbase,
+  sonarqube: SiSonarqube,
+  tailwind: SiTailwindcss
 };
 
 export const Skills: React.FC = () => {
@@ -51,7 +56,7 @@ export const Skills: React.FC = () => {
             </h2>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+            <div className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-12 gap-2">
             {skills.map((skill, idx) => {
                 const IconComponent = skill.icon ? IconMap[skill.icon] : CodeIcon;
                 
@@ -62,12 +67,12 @@ export const Skills: React.FC = () => {
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ delay: idx * 0.05 }}
                     viewport={{ once: true }}
-                    className="group flex flex-col items-center justify-center p-6 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-xl hover:border-primary-500 dark:hover:border-primary-400 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:-translate-y-1 cursor-default text-center h-40"
+                    className="group flex flex-col items-center justify-center p-2 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 rounded-lg hover:border-primary-500 dark:hover:border-primary-400 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:-translate-y-1 cursor-default text-center h-24"
                 >
                     <div className="mb-4 text-slate-400 dark:text-slate-500 group-hover:text-primary-500 dark:group-hover:text-primary-400 transition-colors transform group-hover:scale-110 duration-300">
-                    <IconComponent className="w-10 h-10" />
+                    <IconComponent className="w-6 h-6" />
                     </div>
-                    <span className="font-medium text-base text-slate-700 dark:text-slate-200 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
+                    <span className="font-medium text-xs text-slate-700 dark:text-slate-200 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
                     {skill.name}
                     </span>
                 </motion.div>
