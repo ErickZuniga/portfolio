@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPinIcon, MailIcon, LinkedinIcon, GithubIcon } from './Icons';
+import { MapPinIcon, MailIcon, LinkedinIcon, GithubIcon, ArrowDownIcon } from './Icons';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
 
@@ -7,11 +7,18 @@ export const Hero: React.FC = () => {
   const { content } = useLanguage();
   const { profile, ui } = content;
 
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById('experience');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-[90vh] flex flex-col justify-center px-6 lg:px-24 overflow-hidden pt-20 lg:pt-0">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start lg:items-center">
-            
+          
           {/* Left Content: Intro Text */}
           <motion.div 
             className="lg:col-span-8 relative z-10"
@@ -66,6 +73,22 @@ export const Hero: React.FC = () => {
 
         </div>
       </div>
+      
+      {/* Scroll Down Button */}
+      <motion.div 
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
+      >
+        <button 
+          onClick={scrollToNextSection}
+          className="group flex flex-col items-center gap-2 p-3 rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-400 transition-all duration-300 hover:-translate-y-1"
+          aria-label="Scroll to next section"
+        >
+          <ArrowDownIcon className="w-6 h-6 text-slate-600 dark:text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors animate-bounce" />
+        </button>
+      </motion.div>
     </section>
   );
 };

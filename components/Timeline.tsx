@@ -8,7 +8,7 @@ export const Timeline: React.FC = () => {
   const { experiences, ui } = content;
 
   return (
-    <section className="py-24 px-6 lg:px-24 bg-white/30 dark:bg-black/20">
+    <section id="experience" className="py-24 px-6 lg:px-24 bg-white/30 dark:bg-black/20">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0 }}

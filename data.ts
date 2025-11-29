@@ -57,6 +57,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       footerTagline: "Building robust software infrastructure and scalable backend systems.",
       present: "Present",
       themeLabel: "Toggle Theme",
+      backToTop: "Back to Top",
       languageLabel: "Cambiar a español"
     },
     experiences: [
@@ -67,7 +68,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         period: "Oct 2024 - Present",
         duration: "1 yr 2 mos",
         location: "Chihuahua, Mexico (Remote)",
-        description: "Driving software innovation and delivery in a dynamic environment, contributing to high-impact projects with a focus on code quality and system scalability.",
+        description: "Designing and implementing backend services for Imprivata, ensuring scalability and high availability. Developing gRPC APIs to modernize service communication patterns and improve performance. Collaborating with global cross-functional teams. Promoting clean architecture principles and SOLID design patterns through code reviews and active participation in Agile ceremonies.",
         tech: ["Java", "Spring Boot", "Microservices", "Cloud Infrastructure", "PostgreSQL"]
       },
       {
@@ -150,6 +151,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       footerTagline: "Construyendo infraestructura de software robusta y sistemas backend escalables.",
       present: "Actualidad",
       themeLabel: "Alternar Tema",
+      backToTop: "Volver al inicio",
       languageLabel: "Switch to English"
     },
     experiences: [
@@ -160,7 +162,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         period: "Oct 2024 - Actualidad",
         duration: "1 año 2 m",
         location: "Chihuahua, México (Remoto)",
-        description: "Impulsando la innovación y entrega de software en un entorno dinámico, contribuyendo a proyectos de alto impacto con enfoque en calidad de código y escalabilidad.",
+        description: "Diseño e implementación de servicios backend para Imprivata, asegurando escalabilidad y alta disponibilidad. Desarrollo de APIs gRPC para modernizar patrones de comunicación entre servicios y mejorar el rendimiento. Promoción de principios de arquitectura limpia y patrones de diseño SOLID a través de revisiones de código y ceremonias Ágiles.",
         tech: ["Java", "Spring Boot", "Microservices", "Cloud Infrastructure", "PostgreSQL"]
       },
       {

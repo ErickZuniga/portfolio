@@ -3,7 +3,7 @@ import { FaGitAlt, FaDocker, FaLinux, FaJs, FaPython, FaHtml5, FaNpm, FaPlug, Fa
 import { SiSpring, SiMendeley, SiJenkins, SiHibernate, SiJson, SiReact, SiCouchbase, SiSonarqube, SiTailwindcss } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
-import { CodeIcon } from '../components/Icons.tsx';
+import { CodeIcon, ArrowUpIcon } from './Icons';
 
 const IconMap: Record<string, React.FC<{ className?: string }>> = {
   java: FaJava,
@@ -37,6 +37,10 @@ const IconMap: Record<string, React.FC<{ className?: string }>> = {
 export const Skills: React.FC = () => {
   const { content } = useLanguage();
   const { skills, ui } = content;
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <section className="py-24 px-6 lg:px-24">
@@ -79,6 +83,26 @@ export const Skills: React.FC = () => {
                 );
             })}
             </div>
+        </motion.div>
+        
+        {/* Scroll to Top Button */}
+        <motion.div 
+          className="flex justify-center mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <button 
+            onClick={scrollToTop}
+            className="group flex items-center gap-2 px-6 py-3 rounded-full bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:border-primary-500 dark:hover:border-primary-400 transition-all duration-300 hover:-translate-y-1"
+            aria-label="Scroll to top"
+          >
+            <ArrowUpIcon className="w-5 h-5 text-slate-600 dark:text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors" />
+            <span className="text-sm text-slate-600 dark:text-slate-400 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+              {ui.backToTop}
+            </span>
+          </button>
         </motion.div>
       </div>
     </section>

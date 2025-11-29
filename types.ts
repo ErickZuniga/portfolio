@@ -54,6 +54,7 @@ export interface UIContent {
   present: string;
   themeLabel: string;
   languageLabel: string;
+  backToTop: string;
 }
 
 export interface ContentData {
