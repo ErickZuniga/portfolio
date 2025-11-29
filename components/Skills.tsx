@@ -1,22 +1,31 @@
 import React from 'react';
-import { CodeIcon, JavaIcon, SpringIcon, GitIcon, DatabaseIcon, DockerIcon, TerminalIcon, JavascriptIcon, PythonIcon, GlobeIcon, ServerIcon, SettingsIcon } from './Icons';
+import { FaGitAlt, FaDocker, FaLinux, FaJs, FaPython, FaHtml5, FaNpm, FaPlug, FaDatabase, FaServer, FaCog, FaJava, FaBootstrap, FaCss3 } from 'react-icons/fa';
+import { SiSpring, SiMendeley, SiJenkins, SiHibernate } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
+import { CodeIcon } from '../components/Icons.tsx';
 
 const IconMap: Record<string, React.FC<{ className?: string }>> = {
-  java: JavaIcon,
-  spring: SpringIcon,
-  maven: SettingsIcon,
-  git: GitIcon,
-  db: DatabaseIcon,
-  docker: DockerIcon,
-  linux: TerminalIcon,
-  js: JavascriptIcon,
-  python: PythonIcon,
-  html: GlobeIcon,
-  globe: GlobeIcon,
-  server: ServerIcon,
-  settings: SettingsIcon,
+  java: FaJava,
+  'spring-boot': SiSpring,
+  maven: SiMendeley,
+  git: FaGitAlt,
+  db: FaDatabase,
+  docker: FaDocker,
+  linux: FaLinux,
+  js: FaJs,
+  python: FaPython,
+  'html5': FaHtml5,
+  'css3': FaCss3,
+  'bootstrap': FaBootstrap,
+  hibernate: SiHibernate,
+  'json': FaNpm,
+  'rest-api': FaPlug,
+  'jenkins': SiJenkins,
+  'grpc': FaPlug, // Using FaPlug as an alternative to Grpc
+  globe: FaServer,
+  server: FaServer,
+  settings: FaCog,
   code: CodeIcon
 };
 

@@ -175,3 +175,76 @@ export const SettingsIcon = ({ className }: { className?: string }) => (
     <circle cx="12" cy="12" r="3" />
   </svg>
 );
+
+// Technology Logos for Enhanced Skills Section
+export const MavenIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="3" y="8" width="18" height="8" rx="2" fill="#D52B2E"/>
+    <text x="12" y="14" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontWeight="bold">M</text>
+  </svg>
+);
+
+export const JenkinsIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="2" y="6" width="20" height="12" rx="3" fill="#D24939"/>
+    <text x="12" y="14" fontSize="8" fill="#FFFFFF" textAnchor="middle">J</text>
+  </svg>
+);
+
+export const Html5Icon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="3" y="3" width="18" height="18" rx="2" fill="#E34F26"/>
+    <text x="12" y="15" fontSize="8" fill="#FFFFFF" textAnchor="middle" fontWeight="bold">5</text>
+  </svg>
+);
+
+export const SpringBootIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <path d="M12 2c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-4-1.8-4-4-4zm0 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-6-2.7-6-6zm0 6c-4.4 0-8 3.6-8 8s3.6 8 8 8 8-3.6 8-8-8-3.6-8-8z" fill="#6DB33F"/>
+    <path d="M12 14l-3 3 3-3v6l3-3 3-3v-6z" fill="#FFFFFF"/>
+  </svg>
+);
+
+export const Css3Icon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="2" y="2" width="20" height="18" rx="2" fill="#1572B6"/>
+    <text x="12" y="15" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontWeight="bold">3</text>
+  </svg>
+);
+
+export const BootstrapIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="1" y="4" width="22" height="16" rx="3" fill="#7952B3"/>
+    <path d="M6 8h3v2H6v-2zm0 4h3v2H6v-2zm0 4h3v2H6v-2zm4-8h3v2h-3V8h3v2H-3v8z" fill="#FFFFFF"/>
+  </svg>
+);
+
+export const GrpcIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <circle cx="8" cy="8" r="4" fill="#4285F4"/>
+    <circle cx="16" cy="16" r="4" fill="#4285F4"/>
+    <path d="M8 12l4 4 4-4m-4 4l-4-4" stroke="#4285F4" strokeWidth="2" fill="none"/>
+  </svg>
+);
+
+export const HibernateIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="2" y="6" width="20" height="12" rx="2" fill="#59666C"/>
+    <circle cx="12" cy="12" r="3" fill="#FFFFFF"/>
+  </svg>
+);
+
+export const JsonIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <rect x="3" y="3" width="18" height="18" rx="2" fill="#000000"/>
+    <text x="12" y="15" fontSize="10" fill="#FFFFFF" textAnchor="middle" fontFamily="monospace">{}</text>
+  </svg>
+);
+
+export const RestApiIcon = ({ className }: { className?: string }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className={className}>
+    <circle cx="6" cy="6" r="2" fill="#4CAF50"/>
+    <circle cx="18" cy="6" r="2" fill="#4CAF50"/>
+    <path d="M6 10v4M18 10v4M8 14v4M16 14v4" stroke="#4CAF50" strokeWidth="2"/>
+  </svg>
+);

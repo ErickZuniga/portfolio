@@ -11,24 +11,24 @@ const COMMON_PROFILE = {
 
 const TECH_SKILLS = [
   { name: "Java", icon: "java" },
-  { name: "Spring Boot", icon: "spring" },
+  { name: "Spring Boot", icon: "spring-boot" },
   { name: "Maven", icon: "maven" },
   { name: "Git", icon: "git" },
-  { name: "REST APIs", icon: "globe" },
+  { name: "REST APIs", icon: "rest-api" },
   { name: "JavaScript", icon: "js" },
-  { name: "JSON", icon: "code" },
+  { name: "JSON", icon: "json" },
   { name: "Docker", icon: "docker" },
   { name: "JUnit", icon: "java" },
   { name: "MongoDB", icon: "db" },
   { name: "MySQL", icon: "db" },
   { name: "Python", icon: "python" },
-  { name: "HTML", icon: "html" },
-  { name: "CSS3", icon: "code" },
-  { name: "Bootstrap", icon: "code" },
-  { name: "Hibernate", icon: "db" },
+  { name: "HTML", icon: "html5" },
+  { name: "CSS3", icon: "css3" },
+  { name: "Bootstrap", icon: "bootstrap" },
+  { name: "Hibernate", icon: "hibernate" },
   { name: "jQuery", icon: "js" },
-  { name: "Jenkins", icon: "settings" },
-  { name: "gRPC", icon: "server" },
+  { name: "Jenkins", icon: "jenkins" },
+  { name: "gRPC", icon: "grpc" },
 ];
 
 export const CONTENT: { en: ContentData; es: ContentData } = {
