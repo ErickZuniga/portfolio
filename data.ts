@@ -101,34 +101,14 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         tech: ["Java", "Agile", "Scrum", "Kafka"]
       },
       {
-        id: "1a-auto-dev",
+        id: "1a-auto",
         company: "1A Auto",
         role: "Software Developer",
-        period: "Apr 2017 - Oct 2019",
-        duration: "2 yr 6 mos",
+        period: "May 2015 - Oct 2019",
+        duration: "4 yr 5 mos",
         location: "Chihuahua, Mexico",
-        description: "Developed and maintained code for internal systems using Java with Spring Boot, such as an Automated Returns system and a data quality framework for BI using .NET. Maintained Python scripts for 3rd party API integrations. Proposed infrastructure solutions and coordinated/mentored junior developers and interns.",
-        tech: ["Java", "SQL", "REST APIs", "Selenium", "Python"]
-      },
-       {
-        id: "1a-auto-jr",
-        company: "1A Auto",
-        role: "Jr. Software Developer",
-        period: "Jul 2016 - Jul 2017",
-        duration: "1 yr",
-        location: "Chihuahua, Mexico",
-        description: "Developed internal web systems (e.g., ItemInfo) to display sales history and inventory data using Java, Spring Boot, JavaScript, and Thymeleaf. Maintained NewRelic Synthetics monitors to ensure system uptime and performance.",
-        tech: ["Java", "Spring Boot", "JavaScript", "jQuery", "MSSQL"]
-      },
-       {
-        id: "1a-auto-intern",
-        company: "1A Auto",
-        role: "Intern Software Developer",
-        period: "May 2015 - Jun 2016",
-        duration: "1 yr 1 mo",
-        location: "Chihuahua, Mexico",
-        description: "Developed an Automated Testing framework for regression testing on the main ecommerce site using Java, Selenium, and Maven. Successfully delivered a Proof-of-Concept (PoC) that became a utilized framework for the company.",
-        tech: ["Java", "Selenium", "Maven", "Automation"]
+        description: "Progressed from Intern to Software Developer, developing and maintaining internal systems with Java and Spring Boot. Created an Automated Testing framework using Java and Selenium that became a company-standard PoC. Built web systems like ItemInfo for sales/inventory data, an Automated Returns system, and a BI data quality framework. Maintained Python scripts for API integrations and mentored junior developers.",
+        tech: ["Java", "Spring Boot", "JavaScript", "Python", "SQL", "REST APIs", "Selenium", "Maven", "Automation"]
       }
     ],
     education: [
@@ -143,7 +123,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
     projects: [
       {
         id: "medpalz",
-        title: "MedPalz",
+        title: "MedPal",
         description: "A comprehensive doctor appointment booking platform and medical directory. Designed to streamline patient-doctor interactions and manage schedules efficiently.",
         link: "https://medpalz.com",
         tech: ["Booking System", "Directory", "Full Stack", "Java", "React Native", "Expo", "PostgreSQL"]
@@ -214,34 +194,14 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         tech: ["Java", "Agile", "Scrum", "Kafka"]
       },
       {
-        id: "1a-auto-dev",
+        id: "1a-auto",
         company: "1A Auto",
         role: "Desarrollador de Software",
-        period: "Abr 2017 - Oct 2019",
-        duration: "2 años 6 m",
+        period: "May 2015 - Oct 2019",
+        duration: "4 años 5 m",
         location: "Chihuahua, México",
-        description: "Desarrollé y mantuve código para sistemas internos usando Java y Spring Boot, como sistemas de Devoluciones Automatizadas y frameworks de calidad de datos. Mantuve scripts de Python para integraciones de APIs de terceros. Propuse soluciones de infraestructura y coordiné a desarrolladores junior.",
-        tech: ["Java", "SQL", "REST APIs", "Selenium", "Python"]
-      },
-      {
-        id: "1a-auto-jr",
-        company: "1A Auto",
-        role: "Desarrollador de Software Jr.",
-        period: "Jul 2016 - Jul 2017",
-        duration: "1 año",
-        location: "Chihuahua, México",
-        description: "Desarrollé sistemas web internos (ej. ItemInfo) para visualizar historial de ventas e inventario utilizando Java, Spring Boot, JavaScript y Thymeleaf. Mantuve monitores de NewRelic Synthetics para asegurar el rendimiento del sistema.",
-        tech: ["Java", "Spring Boot", "JavaScript", "jQuery", "MSSQL"]
-      },
-       {
-        id: "1a-auto-intern",
-        company: "1A Auto",
-        role: "Pasante de Desarrollo de Software",
-        period: "May 2015 - Jun 2016",
-        duration: "1 año 1 m",
-        location: "Chihuahua, México",
-        description: "Desarrollé un framework de Pruebas Automatizadas para pruebas de regresión en el sitio de comercio electrónico principal usando Java, Selenium y Maven. Entregué exitosamente una Prueba de Concepto (PoC) que se convirtió en una herramienta utilizada por la empresa.",
-        tech: ["Java", "Selenium", "Maven", "Automation"]
+        description: "Progresé de Pasante a Desarrollador de Software, desarrollando y manteniendo sistemas internos con Java y Spring Boot. Creé un framework de Pruebas Automatizadas usando Java y Selenium que se convirtió en un estándar de la empresa. Construí sistemas web como ItemInfo para datos de ventas/inventario, un sistema de Devoluciones Automatizadas y un framework de calidad de datos para BI. Mantuve scripts de Python para integraciones de APIs y mentoricé a desarrolladores junior.",
+        tech: ["Java", "Spring Boot", "JavaScript", "Python", "SQL", "REST APIs", "Selenium", "Maven", "Automation"]
       }
     ],
     education: [
