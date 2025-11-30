@@ -101,3 +101,40 @@ portfolio/
    `npm install`
 2. Run the app:
    `npm run dev`
+
+## 🐳 Run with Docker
+
+**Prerequisites:** Docker
+
+The application includes a production-ready Docker setup with nginx serving optimized static files.
+
+**Build the Docker image:**
+```bash
+docker build -t portfolio:latest .
+```
+
+**Run the container:**
+```bash
+docker run -d -p 3000:3000 --name portfolio-app portfolio:latest
+```
+
+**Access the application:**
+Open your browser to `http://localhost:3000`
+
+**View logs:**
+```bash
+docker logs portfolio-app
+```
+
+**Stop and remove:**
+```bash
+docker stop portfolio-app
+docker rm portfolio-app
+```
+
+**Features:**
+- 📦 **Small image size**: ~45-50MB (multi-stage build with Alpine Linux)
+- ⚡ **Optimized performance**: Gzip compression, aggressive caching for static assets
+- 🔒 **Security**: Security headers, non-root user, minimal attack surface
+- 🏥 **Health checks**: Built-in monitoring for container orchestrators
+- 🚀 **Production-ready**: SPA routing, proper MIME types, error handling

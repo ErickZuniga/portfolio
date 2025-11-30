@@ -123,10 +123,10 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
     skills: TECH_SKILLS,
     projects: [
       {
-        id: "medpalz",
+        id: "medpal",
         title: "MedPal",
         description: "A comprehensive doctor appointment booking platform and medical directory. Designed to streamline patient-doctor interactions and manage schedules efficiently.",
-        link: "https://medpalz.com",
+        link: "https://medpal.erickzuniga.dev",
         tech: ["Booking System", "Directory", "Full Stack", "Java", "React Native", "Expo", "PostgreSQL"]
       }
     ]
@@ -218,9 +218,9 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
     projects: [
       {
         id: "medpalz",
-        title: "MedPalz",
+        title: "MedPal",
         description: "Una plataforma integral de reserva de citas médicas y directorio. Diseñada para agilizar las interacciones paciente-doctor y gestionar horarios eficientemente.",
-        link: "https://medpalz.com",
+        link: "https://medpal.erickzuniga.dev",
         tech: ["Sistema de Reservas", "Directorio", "Full Stack"]
       }
     ]
