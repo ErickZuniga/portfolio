@@ -124,7 +124,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
     projects: [
       {
         id: "medpal",
-        title: "MedPal",
+        title: "MedPal (In beta)",
         description: "A comprehensive doctor appointment booking platform and medical directory. Designed to streamline patient-doctor interactions and manage schedules efficiently.",
         link: "https://medpal.erickzuniga.dev",
         tech: ["Booking System", "Directory", "Full Stack", "Java", "React Native", "Expo", "PostgreSQL"]
@@ -218,7 +218,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
     projects: [
       {
         id: "medpalz",
-        title: "MedPal",
+        title: "MedPal (En beta)",
         description: "Una plataforma integral de reserva de citas médicas y directorio. Diseñada para agilizar las interacciones paciente-doctor y gestionar horarios eficientemente.",
         link: "https://medpal.erickzuniga.dev",
         tech: ["Sistema de Reservas", "Directorio", "Full Stack"]
