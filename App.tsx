@@ -1,5 +1,6 @@
 import React from 'react';
 import { Controls } from './components/Controls';
+import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Timeline } from './components/Timeline';
 import { Education } from './components/Education';
@@ -14,6 +15,7 @@ const App: React.FC = () => {
     <LanguageProvider>
       <main className="min-h-screen relative selection:bg-primary-500 selection:text-white">
         <Controls />
+        <Navigation />
         <AnimatedBackground />
         
         {/* Background noise texture overlay */}
@@ -29,7 +31,7 @@ const App: React.FC = () => {
 
           <Timeline />
           
-          <section className="py-12 lg:py-24 px-6 lg:px-24">
+          <section id="education" className="py-12 lg:py-24 px-6 lg:px-24">
             <div className="max-w-6xl mx-auto">
               <Education />
             </div>

@@ -15,7 +15,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center px-6 lg:px-24 overflow-hidden pt-20 lg:pt-0">
+    <section id="hero" className="relative min-h-[90vh] flex flex-col justify-center px-6 lg:px-24 overflow-hidden pt-20 lg:pt-0">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start lg:items-center">
           
