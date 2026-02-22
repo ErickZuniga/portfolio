@@ -56,7 +56,6 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       footerRights: "All rights reserved.",
       footerTagline: "Building robust software infrastructure and scalable backend systems.",
       present: "Present",
-      themeLabel: "Toggle Theme",
       backToTop: "Back to Top",
       languageLabel: "Cambiar a español"
     },
@@ -159,7 +158,6 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       footerRights: "Todos los derechos reservados.",
       footerTagline: "Construyendo infraestructura de software robusta y sistemas backend escalables.",
       present: "Actualidad",
-      themeLabel: "Alternar Tema",
       backToTop: "Volver al inicio",
       languageLabel: "Switch to English"
     },

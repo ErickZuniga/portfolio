@@ -53,7 +53,6 @@ export interface UIContent {
   footerRights: string;
   footerTagline: string;
   present: string;
-  themeLabel: string;
   languageLabel: string;
   backToTop: string;
 }
