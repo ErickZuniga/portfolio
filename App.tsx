@@ -21,11 +21,16 @@ const App: React.FC = () => {
         
         <div className="relative z-10">
           <Hero />
+          <section id="portfolio" className="py-12 lg:py-24 px-6 lg:px-24">
+            <div className="max-w-6xl mx-auto">
+              <Projects />
+            </div>
+          </section>
+
           <Timeline />
           
           <section className="py-12 lg:py-24 px-6 lg:px-24">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-              <Projects />
+            <div className="max-w-6xl mx-auto">
               <Education />
             </div>
           </section>

@@ -8,7 +8,7 @@ export const Hero: React.FC = () => {
   const { profile, ui } = content;
 
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById('experience');
+    const nextSection = document.getElementById('portfolio');
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }

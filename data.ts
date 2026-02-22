@@ -52,7 +52,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       experience: "Professional Experience",
       education: "Education",
       skills: "Technologies & Tools",
-      projects: "Personal Projects",
+      projects: "Portfolio",
       footerRights: "All rights reserved.",
       footerTagline: "Building robust software infrastructure and scalable backend systems.",
       present: "Present",
@@ -127,7 +127,16 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         title: "MedPal (In beta)",
         description: "A comprehensive doctor appointment booking platform and medical directory. Designed to streamline patient-doctor interactions and manage schedules efficiently.",
         link: "https://medpal.erickzuniga.dev",
+        image: "/projects/medpal.png",
         tech: ["Booking System", "Directory", "Full Stack", "Java", "React Native", "Expo", "PostgreSQL"]
+      },
+      {
+        id: "bine",
+        title: "BINE Consultancy",
+        description: "A professional firm focusing on strategic consulting, talent management, and tailored business solutions to deliver measurable results.",
+        link: "https://bineconsultancy.com",
+        image: "/projects/bine.png",
+        tech: ["Consulting", "Business", "IT", "React", "Vite", "Dynamic Background"]
       }
     ]
   },
@@ -146,7 +155,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       experience: "Experiencia Profesional",
       education: "Educación",
       skills: "Tecnologías y Herramientas",
-      projects: "Proyectos Personales",
+      projects: "Portafolio",
       footerRights: "Todos los derechos reservados.",
       footerTagline: "Construyendo infraestructura de software robusta y sistemas backend escalables.",
       present: "Actualidad",
@@ -221,7 +230,16 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
         title: "MedPal (En beta)",
         description: "Una plataforma integral de reserva de citas médicas y directorio. Diseñada para agilizar las interacciones paciente-doctor y gestionar horarios eficientemente.",
         link: "https://medpal.erickzuniga.dev",
+        image: "/projects/medpal.png",
         tech: ["Sistema de Reservas", "Directorio", "Full Stack"]
+      },
+      {
+        id: "bine",
+        title: "BINE Consultoría",
+        description: "Una firma profesional enfocada en consultoría estratégica, gestión de talento y soluciones empresariales a la medida para entregar resultados medibles.",
+        link: "https://bineconsultancy.com",
+        image: "/projects/bine.png",
+        tech: ["Consultoría", "Negocios", "TI", "React", "Vite", "Dynamic Background"]
       }
     ]
   }
