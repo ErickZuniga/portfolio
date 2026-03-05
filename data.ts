@@ -131,7 +131,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       },
       {
         id: "bine",
-        title: "BINE Consultancy",
+        title: "BINÉ Consultancy",
         description: "Landing site for a professional firm focusing on strategic consulting, talent management, and tailored business solutions to deliver measurable results.",
         link: "https://bineconsultancy.com",
         image: "/projects/bine.png",
@@ -233,7 +233,7 @@ export const CONTENT: { en: ContentData; es: ContentData } = {
       },
       {
         id: "bine",
-        title: "BINE Consultoría",
+        title: "BINÉ Consultoría",
         description: "Landing Site para una firma profesional enfocada en consultoría estratégica, gestión de talento y soluciones empresariales a la medida para entregar resultados medibles.",
         link: "https://bineconsultancy.com",
         image: "/projects/bine.png",
